@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Entrar | HBO Max</title>
+  <link rel="stylesheet" href="assets/signIn.css">
+</head>
+
+<body>
+  <nav class="menu">
+    <a href="index.html" class="menu__logo">
+      <img src="assets/imagens/hbo-logo.svg" alt="Logotipo HBOMax com o nome da marca" class="menu__logo-image" />
+    </a>
+    <div>
+      <a href="singin.html" class="menu__item">Entrar</a>
+      <a href="#subscription" class="menu__item menu__item--button button">
+        Assine Agora
+      </a>
+    </div>
+  </nav>
+  <main>
+    <form class="login container">
+      <h1 class="login__title">Entrar</h1>
+      <label class="login__label">Você tem uma conta da HBO Max?</label>
+      <input type="email" class="login__field" name="email" id="email" placeholder="Endereço de e-mail">
+      <input type="password" class="login__field" name="password" id="password" placeholder="Senha" minlength="8">
+      <div class="login__actions">
+        <button type="submit" class="button button--gradient">Entrar</button>
+        <a href="#" class="login__link">Esqueceu a senha?</a>
+      </div>
+    </form>
+  </main>
+</body>
+
+</html>
